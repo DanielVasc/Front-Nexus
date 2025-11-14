@@ -161,4 +161,26 @@ button {
 button:hover {
   background-color: #38050F;
 }
+
+@media (max-width: 500px) {
+  .background-form {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 16px;
+    max-width: 300px;
+  }
+  .transition-Page {
+    max-width: 300px;
+    height: 40px;
+  }
+
+  .signIn, .signUp {
+    font-size: 1rem;
+    width: 110px;
+  }
+
+  input {
+    width: 100%;
+  }
+}
 </style>
